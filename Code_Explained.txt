@@ -1,0 +1,24 @@
+Python code to get the last video uploaded by
+Cha3lal sidahmed 
+
+
+1/ using Ytb API Key V3
+2/ we get the I'd of the youtube channel 
+   Than we passed it as arg in the next step
+3/ get the I'd playlist video using the I'd of the channel
+4/ make a request with ytb api to get a dict of the videos
+   (With all their détails)
+5/ check out the result  and convert it to lst of dict
+6/ access only the 1dict which is the last video uploaded
+    Using for loop and break statement
+7/ show the snippet key (which the value is a dict )
+8/ get the title by using __dict__.get() methode 
+9/ get the link by access the .... Dict 
+10/ display the link and the title 
+11/ Get input from user to download it or not to
+12/ if input = yes
+     13/ we use pytube module to download the video
+        With displaying progress downloading bar
+     14/ using os module de run a shell command to start the video
+    Else ;:
+      Quit
